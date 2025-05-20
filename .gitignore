@@ -28,6 +28,8 @@ ENV/
 .venv
 env.bak/
 venv.bak/
+.uv/
+.uv-cache/
 
 # IDE
 .idea/
