@@ -17,3 +17,5 @@ def get_weather(location: str, date: str = None) -> str:
 if __name__ == "__main__":
     # cmd: mcp install r3-mcp-weather-server.py 即可部署到 claude 上
     mcp.run(transport="stdio")
+    
+# sqlite mcp server link: https://mcp.so/server/mcp_sqlite_poc/madhavarora1988?tab=content
