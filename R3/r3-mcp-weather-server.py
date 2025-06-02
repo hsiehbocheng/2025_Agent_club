@@ -3,6 +3,7 @@ from dotenv import load_dotenv
 from mcp.server.fastmcp import FastMCP
 
 import datetime
+# fastmcp docs: https://gofastmcp.com/deployment/running-server
 
 mcp = FastMCP("", "R3WeatherServer")
 
@@ -14,4 +15,5 @@ def get_weather(location: str, date: str = None) -> str:
     return f"{location} 在 {date} 的天氣是晴時多雲，氣溫約 26~32 °C。"
 
 if __name__ == "__main__":
+    # cmd: mcp install r3-mcp-weather-server.py 即可部署到 claude 上
     mcp.run(transport="stdio")
