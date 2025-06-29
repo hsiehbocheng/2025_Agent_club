@@ -10,5 +10,6 @@ dependencies = [
     "langchain-aws>=0.2.24",
     "langchain-openai>=0.3.17",
     "openai>=1.79.0",
+    "pandas>=2.3.0",
     "python-dotenv>=1.1.0",
 ]
